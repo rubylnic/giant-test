@@ -1,0 +1,113 @@
+.reviews {
+  padding: 115px 0;
+  position: relative;
+}
+
+.reviews__heading {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 25px;
+
+    @media (min-width: @tablet-width) {
+      width: 660px;
+    }
+}
+
+.reviews__description {
+  
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    @media (min-width: @tablet-width) {
+      width: 660px;
+    }
+}
+
+.reviews__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+
+  @media (min-width: @desktop-width) {
+    justify-content: space-between;
+  }
+}
+
+.reviews__item {
+  width: 360px;
+  background-color: #f7fafc;
+  padding: 30px 0 30px 40px;
+  box-sizing: border-box;
+  margin-bottom:10px;
+}
+
+.reviews__item--active {
+  background-color: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.reviews__text {
+  width: 275px;
+  margin-bottom: 20px;
+}
+
+.reviews__author {
+  width: 240px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reviews__info{
+  width: 130px;
+}
+
+.reviews__name {
+  margin: 0;
+  color: black;
+  font-weight: 600;
+  font-family: "Dosis", "Arial", sans-serif;
+  font-size: 18px;
+}
+
+.reviews__company {
+  margin: 0;
+  font-size: 14px;
+}
+
+.button-left {
+  display: block;
+  width: 45px;
+  height: 45px;
+  border: none;
+  background: url("../img/left-arrow.png") 0 0 no-repeat;
+  cursor: pointer;
+  position: absolute;
+  top: 60%;
+  left: 2%;
+  outline: none;
+
+  &:hover {
+    opacity: 50%;
+  }
+}
+
+.button-right {
+  display: block;
+  width: 57px;
+  height: 55px;
+  border: none;
+  background: url("../img/right-arrow.png") 0 0 no-repeat;
+  cursor: pointer;
+  position: absolute;
+  top: 60%;
+  right: 2%;
+  outline: none;
+
+  &:hover {
+    opacity: 50%;
+  }
+}

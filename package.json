@@ -1,0 +1,31 @@
+{
+  "name": "giant",
+  "version": "1.0.0",
+  "description": "test task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubylnic/giant-test.git"
+  },
+  "author": "rubylnic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rubylnic/giant-test/issues"
+  },
+  "homepage": "https://github.com/rubylnic/giant-test#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.7.4",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "less": "^3.10.3",
+    "plumber": "^0.4.8",
+    "postcss": "^7.0.26"
+  }
+}

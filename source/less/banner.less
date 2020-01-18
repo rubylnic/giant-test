@@ -1,0 +1,46 @@
+.banner {
+  color: white;
+
+  @media (min-width: @tablet-width) {
+    width: 488px;
+  }
+}
+.banner__heading {
+  font-family: "Dosis", "Arial", sans-serif;
+  font-size: 32px;
+  line-height: 60px;
+  font-weight: 600;
+  width: auto;
+ margin:0;
+  margin-bottom: 20px;
+
+  @media (min-width: @tablet-width) {
+    font-size: 54px;
+  }
+}
+
+.banner__list {
+  margin-bottom: 25px;
+  list-style: none;
+}
+
+.banner__item {
+  margin-bottom: 5px;
+  position: relative;
+
+  &:before {
+    position: absolute;
+    content:"";
+    width: 20px;
+    height: 20px;
+    background: url("../img/white-tick.png") 0 0 no-repeat;
+    top: 5px;
+    left: -40px;
+  }
+}
+
+.banner__btn {
+  padding: 10px 37px;
+  text-decoration: none;
+  border: 5px solid #e25e2e;
+}

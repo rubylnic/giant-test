@@ -1,0 +1,55 @@
+.header {
+  width: 100%;
+  padding-bottom: 220px;
+  background: linear-gradient(to left, #f32276,  #fd712c);
+
+  @media (min-width: @desktop-width) {
+    background: url("../img/phones.png") 160% 50% no-repeat, linear-gradient(to left, #f32276,  #fd712c);
+  }
+}
+
+.header__up {
+  padding-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 130px;
+}
+
+.header__logo {
+  margin-bottom:20px;
+}
+
+.header__nav {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 45px;
+  align-items: center;
+  flex-direction: column;
+
+  @media (min-width: @tablet-width) {
+    flex-direction: row;
+  }
+}
+
+.header__link {
+  text-decoration: none;
+  color: white;
+  margin-right: 45px;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.header__link:last-of-type {
+  @media (min-width: @tablet-width) {
+  margin-right: 0;
+  }
+}
+
+.header__btn {
+  padding: 10px 30px;
+  color: black;
+}

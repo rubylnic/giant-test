@@ -1,0 +1,147 @@
+.price {
+  padding: 115px 0;
+}
+
+.price__heading {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 25px;
+
+  @media (min-width: @tablet-width) {
+    width: 660px;
+  }
+}
+
+.price__description {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 70px;
+
+  @media (min-width: @tablet-width) {
+    width: 660px;
+  }
+}
+
+.price__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  @media (min-width: @tablet-width) {
+    justify-content: space-between;
+  }
+}
+
+.item {
+  width: 263px;
+  background-color: #f7fafc;
+  margin-bottom: 20px;
+}
+
+.item--active {
+  background-color: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.item__list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.item__heading {
+  text-align: center;
+  margin: 13px 0;
+  font-family: "Dosis", "Arial", sans-serif;
+  font-size: 20px;
+}
+
+.item__price {
+  position: relative;
+  text-align: center;
+  font-family: "Dosis", "Arial", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  color: black;
+  background-color: white;
+  padding: 28px 0;
+  margin: 0;
+  margin-bottom: 60px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 85px;
+    border: 130px solid transparent; border-top: 40px solid white;
+  }
+}
+
+.item__price--active {
+  background: url("../img/BG.png") 0 0 no-repeat;
+  padding: 25px 0 60px 0;
+  margin-bottom: 30px;
+
+  &::before {
+    content: "";
+    border: none;
+  }
+}
+.dollar {
+  font-size: 18px;
+  position: relative;
+  bottom: 20px;
+}
+.month {
+  font-size: 18px;
+}
+
+.item__trial {
+  text-decoration: none;
+  color: #aaaaaa;
+  text-align: center;
+  display: block;
+  width: 263px;
+  margin-bottom: 10px;
+
+  &:hover {
+    color: #f32276;
+  }
+}
+
+.item__buy {
+  text-decoration: none;
+  color: black;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  text-align: center;
+  display: block;
+  width: 140px;
+  padding: 5px 0;
+  background-color: white;
+  border: 2px solid #aaaaaa;
+  border-radius: 30px;
+
+  &:hover {
+    background-color: #aaaaaa;
+  border: 2px solid white;
+  }
+}
+.item__list {
+
+width: 200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.item__feature {
+  margin-bottom: 5px;
+  border-bottom: dotted 1px #eeeeee;
+}
+
+
+
+.item__buy--active {
+  background: linear-gradient(to left, #f32276,  #fd712c);
+}
