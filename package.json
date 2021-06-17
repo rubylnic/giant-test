@@ -26,6 +26,6 @@
     "gulp-sourcemaps": "^2.6.5",
     "less": "^3.10.3",
     "plumber": "^0.4.8",
-    "postcss": "^7.0.26"
+    "postcss": "^7.0.36"
   }
 }
